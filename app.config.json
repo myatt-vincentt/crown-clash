@@ -1,10 +1,10 @@
 {
   "title": "Crown Clash",
   "description": "Two players, one crown: out-smile or out-gape whoever wears it to steal it. Whoever wears it when time runs out wins; the other gets the jester hat. Right in your browser.",
-  "image": "/images/og-default.jpg",
+  "image": "/images/crown-clash-thumbnail.jpg",
   "imageAlt": "Crown Clash — a camera experience built with Vincentt",
-  "imageWidth": 1200,
-  "imageHeight": 630,
+  "imageWidth": 1335,
+  "imageHeight": 1178,
   "imageType": "image/jpeg",
   "url": "https://crown-clash.vincentt.app"
 }

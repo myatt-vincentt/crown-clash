@@ -13,6 +13,7 @@ The only thing on the screen is a thin timer line along the top.
   head occluder in the same group. The face model's two slots can swap, so faces are matched to
   players by where their heads were (`src/crown/players.ts`), and players keep who they are.
 - The rules (round, steals, the heavy crown) are in `src/crown/rules.ts`, tested on their own.
+- Thumbnail: `public/images/crown-clash-thumbnail.jpg` (a steal and a win; the share image).
 - Models: `public/models/vincentt-royal-crown.glb` and `vincentt-jester-hat.glb`; credits in
   `CREDITS.md`.
 - Dev preview without a camera: the media switcher starts on `dev-media/crown.mp4` if you add one
