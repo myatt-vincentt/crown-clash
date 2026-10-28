@@ -24,6 +24,6 @@ export const live = {
   duel: duelState() as Duel,
   /** How close the challenger is to taking the crown (0–1). */
   charge: 0,
-  /** Dev checks only: stands in for the players' power. */
+  /** Dev only: stands in for the players' power. */
   powerOverride: null as [number, number] | null,
 };

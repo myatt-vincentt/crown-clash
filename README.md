@@ -18,8 +18,7 @@ The only thing on the screen is a thin timer line along the top.
   `CREDITS.md`.
 - Dev preview without a camera: the media switcher starts on `dev-media/crown.mp4` if you add one
   (two people), else the SDK's sample video; `window.__crown.live.powerOverride = [a, b]` stands in
-  for the two players' expressions; `?occ` draws the occluders. Checks in `audit/`. How it works:
-  `PLAN.md`.
+  for the two players' expressions; `?occ` draws the occluders. How it works: `PLAN.md`.
 
 ---
 

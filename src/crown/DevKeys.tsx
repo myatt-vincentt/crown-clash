@@ -1,5 +1,5 @@
 // Dev-only: window.__crown exposes the store, the live players and the duel
-// for checks; `live.powerOverride = [a, b]` stands in for the two players'
+// for debugging; `live.powerOverride = [a, b]` stands in for the two players'
 // expressions. Scene.tsx lazy-imports this behind an inline NODE_ENV check,
 // so it never reaches production.
 import { useEffect } from "react";

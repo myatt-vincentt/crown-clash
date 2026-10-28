@@ -1,10 +1,9 @@
 # Plan — Crown Clash
 
 Two players fight for one crown. Built on SDK 2.0.0-alpha.9 with the vincentt.studio royal crown
-and jester hat; the head pipeline is shared with the other head templates. The Notion brief called
-it "Pass the Crown".
+and jester hat.
 
-## Decisions (from the creator)
+## Design
 
 - Steal by out-doing the holder: a bigger smile or open mouth, whichever is bigger.
 - Whoever wears the crown when the time runs out wins. 20-second rounds.
@@ -34,11 +33,9 @@ it "Pass the Crown".
 - `TimerBar.tsx`: the thin top line (fills during the countdown, drains during the round, hot in the
   last 5 s). `Confetti.tsx`: the winner's confetti, instanced, in world space.
 - Dev only: `DevKeys.tsx` (`window.__crown`, `live.powerOverride`), `DevMediaSwitcher.tsx`, `?occ`.
-- Checks: `audit/looks.cjs` (crown / jester set-ups on a clip), `audit/round.cjs` (a round with
-  its log and screenshots).
 
 ## Known limits
 
-- MediaPipe's smile saturates near 0.9 for big grins; the heavy crown keeps rounds moving, but the
-  steal margin and weight need a check with two real players.
+- MediaPipe's smile saturates near 0.9 for big grins, so two players grinning flat out read about
+  the same; the heavy crown is what keeps it changing hands.
 - A face turned to full profile drops out; whatever it wears hides until it's back.
